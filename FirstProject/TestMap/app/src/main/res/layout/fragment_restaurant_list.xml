@@ -65,8 +65,16 @@
                 android:orientation="vertical" >
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/photos_grid"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:padding="6dp"
+                    android:clipToPadding="false"
+                    app:listData="@{viewModel.photos}"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:spanCount="2"
+                    tools:listitem="@layout/grid_view_item"
+                    tools:itemCount="16" />
 
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

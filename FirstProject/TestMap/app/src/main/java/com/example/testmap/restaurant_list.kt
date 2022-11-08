@@ -12,6 +12,7 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.RecyclerView
 import com.example.testmap.databinding.FragmentRestaurantListBinding
 import com.example.testmap.overview.OverviewViewModel
+import com.example.testmap.overview.PhotoGridAdapter
 
 
 class restaurant_list : Fragment() {
@@ -33,6 +34,7 @@ class restaurant_list : Fragment() {
 
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
+        binding.photosGrid.adapter = PhotoGridAdapter()
 
         return binding.root
     }
