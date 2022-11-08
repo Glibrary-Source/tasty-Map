@@ -32,10 +32,10 @@ class MapsActivity : AppCompatActivity() {
     //하단 네비게이션바 선택에따른 프래그먼트 이동코드
     fun initNavigationBar() {
         binding.bottomNavigation.run {
-            setOnNavigationItemSelectedListener {
+            setOnItemSelectedListener {
                 when (it.itemId) {
                     R.id.item_list -> {
-                        changeFragment(com.example.testmap.restaurant_list())
+                        changeFragment(restaurant_list())
                     }
                     R.id.item_map -> {
                         changeFragment(GmapViewFragment())
@@ -47,6 +47,7 @@ class MapsActivity : AppCompatActivity() {
         }
     }
 
+    //실제로 프래그먼트를 바꾸는 코드
     fun changeFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
             .replace(binding.mainFrame.id, fragment).commit()

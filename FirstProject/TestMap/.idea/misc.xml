@@ -20,6 +20,13 @@
         <entry key="..\:/Users/qn651/Downloads/TestMap/app/src/main/res/menu/bottom_navigation.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/qn651/Downloads/TestMap/app/src/main/res/menu/top_nav_menu.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/qn651/Downloads/TestMap/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1955" />
+        <entry key="..\:/Users/qn651/OneDrive/AndroidProject/FirstProject/TestMap/app/src/main/res/drawable-v24/loading_img.xml" value="0.1835" />
+        <entry key="..\:/Users/qn651/OneDrive/AndroidProject/FirstProject/TestMap/app/src/main/res/drawable/ic_baseline_broken_image_24.xml" value="0.1835" />
+        <entry key="..\:/Users/qn651/OneDrive/AndroidProject/FirstProject/TestMap/app/src/main/res/drawable/loading_animation.xml" value="0.1835" />
+        <entry key="..\:/Users/qn651/OneDrive/AndroidProject/FirstProject/TestMap/app/src/main/res/layout/activity_maps.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/qn651/OneDrive/AndroidProject/FirstProject/TestMap/app/src/main/res/layout/activity_splash.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/qn651/OneDrive/AndroidProject/FirstProject/TestMap/app/src/main/res/layout/fragment_gmap_view.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/qn651/OneDrive/AndroidProject/FirstProject/TestMap/app/src/main/res/layout/fragment_restaurant_list.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>
