@@ -34,10 +34,6 @@ class restaurant_list : Fragment() {
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
 
-//        val textView = binding.root.findViewById<TextView>(R.id.mars_json)
-//        textView.movementMethod = ScrollingMovementMethod.getInstance()
-
-
         return binding.root
     }
 }
