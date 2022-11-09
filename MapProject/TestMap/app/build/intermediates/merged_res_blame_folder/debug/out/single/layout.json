@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-mergeDebugResources-45:\\layout\\fragment_gmap_view.xml",
+        "source": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-main-48:\\layout\\fragment_gmap_view.xml"
+    },
+    {
+        "merged": "com.example.testmap.app-mergeDebugResources-45:/layout/grid_view_item.xml",
+        "source": "com.example.testmap.app-main-48:/layout/grid_view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-mergeDebugResources-45:\\layout\\grid_view_item.xml",
+        "source": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-main-48:\\layout\\grid_view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-mergeDebugResources-45:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-main-48:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-mergeDebugResources-45:\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-main-48:\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-mergeDebugResources-45:\\layout\\fragment_restaurant_list.xml",
+        "source": "C:\\Users\\qn651\\.gradle\\daemon\\7.3.3\\com.example.testmap.app-main-48:\\layout\\fragment_restaurant_list.xml"
+    }
+]
