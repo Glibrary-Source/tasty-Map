@@ -30,6 +30,7 @@ class GmapViewFragment : Fragment(), OnMapReadyCallback {
             mContext = context
         }
     }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

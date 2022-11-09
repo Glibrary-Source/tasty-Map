@@ -13,7 +13,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="10"
+        android:weightSum="14"
         tools:context=".restaurant_list"
         android:orientation="vertical" >
 
@@ -55,7 +55,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="9"
+            android:layout_weight="13"
             app:layout_constraintTop_toBottomOf="@id/search_bar" >
 
             <androidx.recyclerview.widget.RecyclerView
@@ -65,7 +65,7 @@
                 android:layout_gravity="center"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 app:listData="@{viewModel.photos}"
-                tools:itemCount="7"
+                tools:itemCount="8"
                 tools:listitem="@layout/grid_view_item" />
 
             <ImageView
